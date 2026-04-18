@@ -1,0 +1,35 @@
+/*-------------------------------------------
+  styleconfiguser.css
+  By Diego Carmona Bernal - CBDX
+  www.diegocarmonabernal.com
+  www.mysoftup.com
+-------------------------------------------*/
+
+.box-notification-ok,
+.box-notification-error {
+    position: absolute;
+    width: 68%;
+    height: 50px;
+    top: 0;
+    margin: 35px 0 0 0;
+    padding: 0 2%;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 1186px) {
+    .box-notification-ok,
+    .box-notification-error {
+        width: 89%;
+        margin: 100px 0 0 0;
+        padding: 0 2.5%;
+    }
+}
+
+@media only screen and (max-width: 963px) {
+    .box-notification-ok,
+    .box-notification-error {
+        width: 87%;
+        margin: 100px 0 0 0;
+        padding: 0 3.5%;
+    }
+}
